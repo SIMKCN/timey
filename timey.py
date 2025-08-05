@@ -47,6 +47,8 @@ def daySummary():
     
     for task, total_duration in taskDurations.items():
         print(f"{task}: {total_duration}")
+    
+    taskDurations.clear()
 
 
 def getCommand(command):
